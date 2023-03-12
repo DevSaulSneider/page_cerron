@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>.:: I.E Cerron ::.</title>
+        <!-- Estilos de bootstrap -->
+        <link rel="stylesheet" href="public/css/bootstrap.min.css" />
+        <!-- css de iconos -->
+        <link rel="stylesheet" href="public/fontawesome/css/all.min.css" />
+        <!-- Estilos propios // siempre tiene que ser ultimo -->
+        <link rel="stylesheet" href="public/css/stylos.css" />
+        <!-- colocamos el icono de la pagina -->
+        <link
+            rel="shortcut icon"
+            href="imagenes/favicon.ico"
+            type="image/x-icon"
+        />
+    </head>
+    <body>
+        <header class="sticky-top">
+            <nav
+                class="navbar navbar-dark navbar-expand-lg bg-dark"
+                data-bs-theme="light"
+            >
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img
+                            class="logo"
+                            src="imagenes/logo_cerron.webp"
+                            alt="logo-colegio cerron"
+                        />
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarNavDropdown"
+                    >
+                        <ul class="navbar-nav ms-lg-auto">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#"
+                                    >Inicio</a
+                                >
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Personal
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Profesores</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Personal administrativo</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Personal Directivo</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Ubicanos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Matriculate</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Aqui estamos haciendno el carrousel -->
+            <section>
+                <div
+                    id="carouselExampleInterval"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                >
+                    <div class="carousel-inner">
+                        <div
+                            class="carousel-item active"
+                            data-bs-interval="1000"
+                        >
+                            <img src="imagenes/slider/slider1.webp" class="d-block w-100" alt="slider1" />
+                        </div>
+                        <div class="carousel-item" data-bs-interval="1000">
+                            <img src="imagenes/slider/slider2.webp" class="d-block w-100" alt="slider2" />
+                        </div>
+                        <div class="carousel-item"  data-bs-interval="1000">
+                            <img src="imagenes/slider/slider3.webp" class="d-block w-100" alt="slider3" />
+                        </div>
+                        <div class="carousel-item"  data-bs-interval="1000">
+                            <img src="imagenes/slider/slider2.webp" class="d-block w-100" alt="slider3" />
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev"
+                    >
+                        <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next"
+                    >
+                        <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+        </main>
+
+        <footer
+            class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        >
+            <div class="col-md-4 d-flex align-items-center">
+                <a
+                    href="/"
+                    class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+                >
+                    <!-- <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap" />
+                    </svg> -->
+                    <img
+                        class="logo"
+                        src="imagenes/insignia.webp"
+                        alt="logo-colegio cerron"
+                    />
+                </a>
+                <span class="mb-3 mb-md-0 text-muted"
+                    >&copy; 2023 Todos los derechos son reservados <br />
+                    I.E Manuel Tobias Garcia Cerron</span
+                >
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3">
+                    <a class="text-muted icon-fotter" href="#"
+                        ><i class="fa-solid fa-envelope"></i
+                    ></a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-muted icon-fotter" href="#"
+                        ><i class="fa-brands fa-facebook"></i
+                    ></a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-muted icon-fotter" href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <!-- Animacion / JS de bootstrap -->
+        <script src="public/js/bootstrap.bundle.min.js"></script>
+        <!-- mi propio js -->
+        <script src="public/js/index.js"></script>
+    </body>
+</html>

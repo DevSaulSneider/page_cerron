@@ -1,0 +1,118 @@
+/* =======================  */
+/*      Mis variables       */
+/* =======================  */
+:root{
+    --color-principal: rgb(175, 6, 6);
+    --color-alpha-principal: rgba(217, 0, 0.1);
+    --color-secundario: rgb(53, 16, 16);
+    --color-alpha-secundario: rgb(228, 51, 51);
+    --color-tercero: rgb(80, 158, 227);
+    --color-alpha-tercero: rgba(80, 158, 227,0.75);
+
+    --color-link: rgb(255, 0, 0);
+    --color-alpha-link: rgb(255, 0, 0.75);
+
+    --color-fondo: rgb(245, 245, 245);
+    --color-alpha-fondo: rgba(245, 245, 245, 0.75);
+}
+
+
+
+/* =======================  */
+/*      Resetear Estilos    */
+/* =======================  */
+
+
+
+/* =======================  */
+/*  Estilos de Bootstrap    */
+/* =======================  */
+
+/* cambiamos el color del navbar */
+.bg-dark{
+    background-color: var(--color-principal)!important;
+}
+
+.dropdown-item{
+    color: var(--color-secundario);
+    font-weight: bold;
+    font-style: italic;
+}
+.dropdown-item:hover{
+    color: var(--color-alpha-secundario);
+}
+
+/* el elemento que contiene el link */
+.nav-item{
+    transition: all 0.3s ease-out;
+}
+
+/* las palabras del link */
+.nav-link{
+    margin-left: 8px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-item:hover{
+    background-color: var(--color-alpha-principal);
+    border-radius: 10px;
+}
+
+/* diseño del carrousel */
+.carousel-inner{
+    max-height: 700px;
+}
+
+
+
+
+
+/* =======================  */
+/*    Mis Estilos Propios   */
+/* =======================  */
+body{
+    background-color: var(--color-fondo);
+}
+/* aqui cambiamos el tamaño del logo*/
+.logo{
+    height: 50px;
+    width: auto;
+}
+
+.icon-fotter{
+    font-size: 25px;
+}
+
+
+
+
+/* =======================  */
+/*      Responsive          */
+/* =======================  */
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .nav-item:hover{
+        background-color: transparent;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
