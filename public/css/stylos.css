@@ -17,16 +17,32 @@
 }
 
 
-
 /* =======================  */
-/*      Resetear Estilos    */
+/*  Mis Estilos    */
 /* =======================  */
+
+body{
+    background-color: var(--color-fondo);
+}
+
+/* aqui cambiamos el tamaño del logo*/
+.logo{
+    height: 100px;
+    width: auto;
+}
+
+/* modificacion iconos del footer */
+.icon-fotter{
+    font-size: 25px;
+}
+
+.historia{
+    text-align: justify;
+}
 
 
 
-/* =======================  */
-/*  Estilos de Bootstrap    */
-/* =======================  */
+
 
 /* cambiamos el color del navbar */
 .bg-dark{
@@ -50,7 +66,7 @@
 /* las palabras del link */
 .nav-link{
     margin-left: 8px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -60,29 +76,10 @@
 }
 
 /* diseño del carrousel */
-.carousel-inner{
+/* .carousel-inner{
     max-height: 700px;
-}
+} */
 
-
-
-
-
-/* =======================  */
-/*    Mis Estilos Propios   */
-/* =======================  */
-body{
-    background-color: var(--color-fondo);
-}
-/* aqui cambiamos el tamaño del logo*/
-.logo{
-    height: 50px;
-    width: auto;
-}
-
-.icon-fotter{
-    font-size: 25px;
-}
 
 
 
