@@ -13,7 +13,7 @@ body{
     --color-secundario: rgb(53, 16, 16);
     --color-alpha-secundario: rgb(228, 51, 51);
     --color-tercero: rgb(250, 161, 143);
-    --color-alpha-tercero: rgba(247, 144, 124, 0.75);
+    --color-alpha-tercero: rgba(250, 161, 143, 0.75);
 
     --color-link: rgb(255, 0, 0);
     --color-alpha-link: rgb(255, 0, 0.75);
@@ -45,11 +45,9 @@ body{
     font-size: 25px;
 }
 
-.historia{
-    text-align: start;
+.text-justify{
+    text-align: justify;
 }
-
-
 
 
 
