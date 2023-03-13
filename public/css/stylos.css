@@ -1,3 +1,9 @@
+/* IMPORTAMOS LAS FUENTES */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,400&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
 /* =======================  */
 /*      Mis variables       */
 /* =======================  */
@@ -27,7 +33,7 @@ body{
 
 /* aqui cambiamos el tamaño del logo*/
 .logo{
-    height: 100px;
+    height: 50px;
     width: auto;
 }
 
